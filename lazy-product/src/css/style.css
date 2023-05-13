@@ -1,0 +1,27 @@
+@import url("nav.css");
+@import url("hero.css");
+@import url("product.css");
+@import url("deals.css");
+@import url("best_seller.css");
+@import url("team.css");
+@import url("footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
